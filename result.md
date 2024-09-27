@@ -1,29 +1,29 @@
-```sh
+```bash
 
 dfx identity list
-abdulsalamamtech
-amtech
-anonymous
-default
-dev-abdulsalam
-integral *
-stemlabicp
-abdulsalam@abdulsalam-Latitude-E7250:~/Desktop/project/integral_education/src/integral_education_frontend$ dfx ledger --network ic balance
-0.00000000 ICP
-abdulsalam@abdulsalam-Latitude-E7250:~/Desktop/project/integral_education/src/integral_education_frontend$ dfx deploy --network ic
-Deploying all canisters.
-Creating canisters...
-Creating canister integral_education_backend...
-created-at-time for canister integral_education_backend is 1727433014173713237.
-integral_education_backend canister created on network ic with canister id: 7oqdv-fyaaa-aaaan-qm4hq-cai
-Creating canister integral_education_frontend...
-created-at-time for canister integral_education_frontend is 1727433031546689240.
-integral_education_frontend canister created on network ic with canister id: 5tnn5-wqaaa-aaaan-qm4ia-cai
-Building canisters...
-WARN: .did file for canister 'internet_identity' does not exist.
-WARN: /home/abdulsalam/Desktop/project/integral_education/src/integral_education_backend/main.mo:5.8-5.13: warning [M0194], unused identifier Array (delete or rename to wildcard `_` or `_Array`)
-/home/abdulsalam/Desktop/project/integral_education/src/integral_education_backend/main.mo:53.7-53.12: warning [M0194], unused identifier Users (delete or rename to wildcard `_` or `_Users`)
-/home/abdulsalam/Desktop/project/integral_education/src/integral_education_backend/main.mo:186.16-186.27: warning [M0194], unused identifier currentTime (delete or rename to wildcard `_` or `_currentTime`)
+    abdulsalamamtech
+    amtech
+    anonymous
+    default
+    dev-abdulsalam
+    integral *
+    stemlabicp
+/projects/integral_education/src/integral_education_frontend$ dfx ledger --network ic balance
+    0.00000000 ICP
+/project/integral_education/src/integral_education_frontend$ dfx deploy --network ic
+    Deploying all canisters.
+    Creating canisters...
+    Creating canister integral_education_backend...
+    created-at-time for canister integral_education_backend is 1727433014173713237.
+    integral_education_backend canister created on network ic with canister id: 7oqdv-fyaaa-aaaan-qm4hq-cai
+    Creating canister integral_education_frontend...
+    created-at-time for canister integral_education_frontend is 1727433031546689240.
+    integral_education_frontend canister created on network ic with canister id: 5tnn5-wqaaa-aaaan-qm4ia-cai
+    Building canisters...
+    WARN: .did file for canister 'internet_identity' does not exist.
+    WARN: /home/abdulsalam/Desktop/project/integral_education/src/integral_education_backend/main.mo:5.8-5.13: warning [M0194], unused identifier Array (delete or rename to wildcard `_` or `_Array`)
+    /home/abdulsalam/Desktop/project/integral_education/src/integral_education_backend/main.mo:53.7-53.12: warning [M0194], unused identifier Users (delete or rename to wildcard `_` or `_Users`)
+    /home/abdulsalam/Desktop/project/integral_education/src/integral_education_backend/main.mo:186.16-186.27: warning [M0194], unused identifier currentTime (delete or rename to wildcard `_` or `_currentTime`)
 
 Building frontend...
 WARN: Building canisters before generate for Motoko
