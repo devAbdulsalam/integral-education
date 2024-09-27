@@ -18,10 +18,20 @@ This project focuses on building an AI-powered personal tutor that promotes lear
 
 ### Key Features:
 1. **Leaderboard/Grading System:**  
-   We plan to implement a leaderboard or simple grading system that allows users to track their progress as they advance through different books and acquire more knowledge on anti-corruption and crime prevention strategies.
+   We implemented a leaderboard or simple grading system that allows users to track their progress as they advance through different content and acquire more knowledge on anti-corruption and crime prevention strategies.
    
 2. **Q&A Game:**  
-   A simple question-and-answer game will engage users by presenting various behavioral tricks and tips for being a dutiful global citizen. This will provide an interactive learning experience while reinforcing key lessons.
+   A simple question-and-answer game that engage users by presenting various behavioral tricks and tips for being a dutiful global citizen. This provide an interactive learning experience while reinforcing key lessons.
+
+---
+
+### Upcomming Key Features:
+1. **Full access to the AI model from the backend canister:**  
+   We plan to fully implement HTTPS outcalls on the Internet Computer Protocol (ICP). This feature will allow canisters to directly communicate with external HTTP(S) servers.
+   
+2. **Dynamic content:**  
+   All content both lessons and Q&A will be render dynamically from the canister using AI,
+   this will allow the users to learn based on their experience and learning capability.
 
 ---
 
@@ -48,7 +58,7 @@ URLs:
   - **Frontend canister via browser**
     integral_education_frontend:
     - https://5tnn5-wqaaa-aaaan-qm4ia-cai.icp0.io/
-    
+
   - **Backend canister via Candid interface**
     integral_education_backend:
     - https://a4gq6-oaaaa-aaaab-qaa4q-cai.raw.icp0.io/?id=7oqdv-fyaaa-aaaan-qm4hq-cai
