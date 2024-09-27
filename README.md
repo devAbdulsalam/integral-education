@@ -40,13 +40,17 @@ For more information or inquiries, feel free to contact the team members via ema
 ## Links
 
 Deployed canisters.
+
+
 URLs:
 
-  - Frontend canister via browser
-    integral_education_frontend: 
+
+  - **Frontend canister via browser**
+    integral_education_frontend:
     - https://5tnn5-wqaaa-aaaan-qm4ia-cai.icp0.io/
-  - Backend canister via Candid interface:
-    integral_education_backend: 
+    
+  - **Backend canister via Candid interface**
+    integral_education_backend:
     - https://a4gq6-oaaaa-aaaab-qaa4q-cai.raw.icp0.io/?id=7oqdv-fyaaa-aaaan-qm4hq-cai
 
 ---
