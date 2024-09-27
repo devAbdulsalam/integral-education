@@ -1,3 +1,54 @@
+# Team Stem - integral-force | integral-education 
+
+### Team Members:
+- **Prince Ajocha**  
+  Email: princejosephpj56@gmail.com
+  
+- **Abdulsalam Mohammed**  
+  Email: ammuftau74@gmail.com
+  
+- **Abdulrahman abdulsalam**  
+  Email: abdulsalamamtech@gmail.com
+
+---
+
+## Project Overview
+
+This project focuses on building an AI-powered personal tutor that promotes learning about crime and anti-corruption practices through interactive features. Our solution is designed to engage users with educational content, while also incorporating gamified elements for better retention and motivation.
+
+### Key Features:
+1. **Leaderboard/Grading System:**  
+   We plan to implement a leaderboard or simple grading system that allows users to track their progress as they advance through different books and acquire more knowledge on anti-corruption and crime prevention strategies.
+   
+2. **Q&A Game:**  
+   A simple question-and-answer game will engage users by presenting various behavioral tricks and tips for being a dutiful global citizen. This will provide an interactive learning experience while reinforcing key lessons.
+
+---
+
+## Challenges
+
+While adding these features to our existing repository, we faced several challenges. Due to technical difficulties, one is that we are not proficient in the svelte programming for the frontend as it keeps populating errors, we decided to write new code to integrate our intended features more efficiently.
+
+---
+
+## Contact Us
+
+For more information or inquiries, feel free to contact the team members via email: princejosephpj56@gmail.com.
+
+--- 
+
+## Links
+
+Deployed canisters.
+URLs:
+
+  Frontend canister via browser
+    integral_education_frontend: https://5tnn5-wqaaa-aaaan-qm4ia-cai.icp0.io/
+  Backend canister via Candid interface:
+    integral_education_backend: https://a4gq6-oaaaa-aaaab-qaa4q-cai.raw.icp0.io/?id=7oqdv-fyaaa-aaaan-qm4hq-cai
+
+---
+
 # `integral_education`
 
 Welcome to your new `integral_education` project and to the Internet Computer development community. By default, creating a new project adds this README and some template files to your project directory. You can edit these template files to customize your project and to include your own code to speed up the development cycle.
