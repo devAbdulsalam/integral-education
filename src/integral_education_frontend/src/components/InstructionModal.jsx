@@ -2,8 +2,9 @@
 import { Fragment } from 'react';
 import { Dialog, Transition } from '@headlessui/react';
 import { HiXMark } from 'react-icons/hi2';
+import Button from './Button';
 
-const InstructionModal = ({ setShow, show, handleCancle,handleNext}) => {
+const InstructionModal = ({ setShow, show, handleCancel,handleNext}) => {
 	return (
 		<Transition appear show={show} as={Fragment}>
 			<Dialog as="div" className="relative" onClose={() => {}}>
@@ -46,7 +47,8 @@ const InstructionModal = ({ setShow, show, handleCancle,handleNext}) => {
 									<div className="md:w-[500px] mx-auto my-auto pt-[20px] pb-[20px] px-[20px]">
 										<div className="">
                                             <h4 className="text-[18px] my-2 text-center">{show}</h4>
-                                            <p>Here is how to get the most from the quiz</p>
+											<h3 className="text-lg font-bold pb-4 italic">To get Staterd<br/>
+											Here is how to get the most from the quiz</h3>
 											<div className='py-2 border-b-primary border-b'>
                                                 <ul className='space-y-2'>
                                                     <li>1. Choose your answers correctly because once picked, you will not be able to change it.
@@ -57,18 +59,10 @@ const InstructionModal = ({ setShow, show, handleCancle,handleNext}) => {
                                             </div>
 										</div>
 										<div className="pt-[10px] flex justify-between gap-2">
-                                        	<button
-												className="border-red-400 hover:bg-red-600 text-red-500 hover:text-white h-10 w-full flex items-center justify-center rounded-md"
-												onClick={handleCancle}
-											>
-												<span className="text-lg px-2">Exit</span>
-											</button>
-											<button
-												className="bg-green-400 hover:bg-green-600 text-white h-10 w-full flex items-center justify-center rounded-md"
-												onClick={handleNext}
-											>
-												<span className="text-lg px-2">Continue</span>
-											</button>
+
+										<Button handleClick={handleCancel} text="Exit" className="border-red-400 hover:bg-red-600 text-red-500" />
+										<Button handleClick={handleNext} text="Continue" />
+										
 										</div>
 									</div>
 								</div>

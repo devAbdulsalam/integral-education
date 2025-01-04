@@ -25,7 +25,7 @@ const Navigation = () => {
 			<div
 				className={`${
 					isOpen ? 'block' : 'hidden'
-				} absolute md:static top-[70px] py-10 z-5 left-0 w-full md:w-auto md:flex space-x-0 md:space-x-10 bg-white md:bg-transparent shadow-lg md:shadow-none transition-all md:py-0 duration-500 ease-in-out`}
+				} absolute md:static top-[70px] py-10 z-5 px-4 md:px-0 left-0 w-full md:w-auto md:flex space-x-0 md:space-x-10 bg-white md:bg-transparent shadow-lg md:shadow-none transition-all md:py-0 duration-500 ease-in-out`}
 			>
 				<NavLink
 					style={({ isActive }) => {
@@ -46,24 +46,33 @@ const Navigation = () => {
 				>
 					Quiz
 				</NavLink>)}
+				<NavLink
+					style={({ isActive }) => {
+						return isActive ? { borderBottom: '1px solid #01A8A1' } : {};
+					}}
+					to="../article"
+					className="block md:inline-block p-4 md:p-0"
+				>
+					Article
+				</NavLink>
 
 				<NavLink
 					style={({ isActive }) => {
 						return isActive ? { borderBottom: '1px solid #01A8A1' } : {};
 					}}
-					to="../scores"
+					to="../leaderboard"
 					className="block md:inline-block p-4 md:p-0"
 				>
-					Scores
+					Leaderboard
 				</NavLink>
 				<NavLink
 					style={({ isActive }) => {
 						return isActive ? { borderBottom: '1px  solid #01A8A1' } : {};
 					}}
 					to="../index"
-					className="md:hidden hover:bg-primary my-5 inline-block transition ease-in-out hover:translate-y-1 hover:scale-110 duration-400 hover:text-white border border-primary rounded-md py-3 px-10 relative overflow-hidden"
+					className="mx-2 md:hidden hover:bg-primary my-5 inline-block transition ease-in-out hover:translate-y-1 hover:scale-110 duration-400 hover:text-white border border-primary rounded-md py-3 px-10 relative overflow-hidden"
 				>
-					<span className="relative ">Get Started</span>
+					<span className="relative ">Get Starteddd</span>
 				</NavLink>
 			</div>
 			<div className="mt-4 md:mt-0 hidden md:block">

@@ -3,6 +3,7 @@ import { Fragment } from 'react';
 import { Dialog, Transition } from '@headlessui/react';
 import { HiXMark } from 'react-icons/hi2';
 import Score from './Score';
+import ScoreCount from "../components/ScoreCount";
 
 const ScoreModal = ({ setShow, show, score,  handleCancle, handleComplete}) => {
     const {correctAnswers, totalQuestions} = score
@@ -40,7 +41,9 @@ const ScoreModal = ({ setShow, show, score,  handleCancle, handleComplete}) => {
 									<div className="w-[500px] mx-auto my-auto  pt-[20px] pb-[20px] px-[20px]">
 										<div className="text-center">
 											<Score correctAnswers={correctAnswers } totalQuestions={totalQuestions}/>
-                                            <p className='py-2 '>You score {correctAnswers} out of {totalQuestions}</p>
+                                            <h3 className="capitalize text-lg font-bold py-4 italic">
+												You score {correctAnswers} out of {totalQuestions}
+											</h3>
 										</div>
 										<div className="p-[10px] flex justify-between gap-2">
 											<button

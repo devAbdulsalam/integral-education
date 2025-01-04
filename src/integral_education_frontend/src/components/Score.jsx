@@ -28,7 +28,8 @@ const Score = ({ correctAnswers, totalQuestions }) => {
   return (
     <section className="bg-white m-3 rounded border border-gray-300">
         <div className="text-center flex-col flex justify-center mx-auto items-center w-96 lg:w-1/3 p-3 m-3  rounded">
-        <h2 className="text-4xl font-bold pb-2">{percentage}%</h2>
+
+        <ScoreCount score={percentage} steps={5} interval={10} />
             <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
